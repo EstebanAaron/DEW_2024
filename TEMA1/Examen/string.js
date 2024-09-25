@@ -15,7 +15,7 @@ console.log(textoConEspacios.trim()); // 'Hola, mundo!'
 
 let cadena = "Hola, cómo estás? Espero que bien.";
 // Dividir por varios caracteres (espacios, comas, signos de interrogación)
-let partes = cadena.split(/[ ;¿,?]+/); 
+let partes = cadena.split(/[ ;¿,?]+/); // (/\W+/); Es una expresión regular que coincide con uno o más caracteres no alfanuméricos (es decir, cualquier cosa que no sea una letra, un número o un guion bajo).
 // var expresionRegular = /\s*;\s*/; Para separar por ; y espacios 
 // Eliminar elementos vacíos
 partes = partes.filter(part => part.trim() !== '');
