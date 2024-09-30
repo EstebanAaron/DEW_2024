@@ -12,6 +12,7 @@ function mostrarFechaHora(fecha) {
         day: 'numeric',
        
     };
+    console.log(a);
     
     // Si no se proporciona una fecha, usar la fecha actual
     const fechaBase = fecha ? new Date(aux) : new Date();
